@@ -1,8 +1,9 @@
 import React from "react";
+import '../App.js'
 
 class Header extends React.Component {
   render() {
-    return <h1>{/*Title Goes Here*/}</h1>;
+    return <h1>{this.props.header.header}</h1>;
   }
 }
 
